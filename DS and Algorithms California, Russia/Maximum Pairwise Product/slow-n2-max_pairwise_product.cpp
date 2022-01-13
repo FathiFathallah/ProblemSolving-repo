@@ -1,4 +1,5 @@
-//Running Time = N^2 (Very Slow) if array with n = 10^5 then the running time will equal to 10^10 !
+//First Problem : Running Time = N^2 (Very Slow) if array with n = 10^5 then the running time will equal to 10^10 ! => solved by finding two maximum
+//SECOND PROBLEM : when the value of the product is bigger than 410065408 (INTEGER OVER FLOW) => Solved by long long
 #include <iostream>
 #include <vector>
 #include <algorithm>
