@@ -29,3 +29,4 @@ int main() {
     std::cout << MaxPairwiseProduct(numbers); << "\n";
     return 0;
 }
+
