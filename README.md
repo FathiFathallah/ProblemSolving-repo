@@ -9,5 +9,4 @@ Each Directory Has:
    • The solution.
 </pre>
 
-![1](https://veeroesquotes.com/wp-content/uploads/2018/11/quote-60.jpg)
 ![](problemSolving.jpeg)
