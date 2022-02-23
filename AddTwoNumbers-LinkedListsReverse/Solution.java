@@ -8,6 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+//BETTER ALGORITHM | THE RIGHT CODE
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int list1 = 0;
