@@ -8,8 +8,8 @@ Solving Problems from all sources available
    •LeetCode
 Each Directory Has:
    • The problem statement as a PDF file. 
-         ◘(if there was no problem statment, try to search the name of the problem on LeetCode/Edabit)
-   • The solution.
+         ◘(if there was no problem statment, try to search the name of the problem on LeetCode/Edabit).
+   • The Solution.
 </pre>
 
 ![](problemSolving.jpeg)
