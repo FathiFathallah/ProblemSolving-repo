@@ -13,11 +13,10 @@ class Solution {
         if(!stack.empty()) return false;
         return true;
 }
-    
-        public boolean isCorrespondent(char x, char y){
-            if(x == '(' && y == ')') return true;
-            if(x == '{' && y == '}') return true;
-            if(x == '[' && y == ']') return true;
-            return false;            
-        }
+    public boolean isCorrespondent(char x, char y){
+        if(x == '(' && y == ')') return true;
+        if(x == '{' && y == '}') return true;
+        if(x == '[' && y == ']') return true;
+        return false;            
+    }
 }
