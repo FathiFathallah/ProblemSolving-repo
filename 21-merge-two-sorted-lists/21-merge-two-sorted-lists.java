@@ -10,30 +10,29 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        Queue<ListNode> queue = new LinkedList<ListNode>();
+        Queue < ListNode > queue = new LinkedList < ListNode > ();
 
-        while(list1 != null && list2 != null){
-            if(list1.val <= list2.val){
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
                 queue.offer(list1);
                 list1 = list1.next;
-            }
-            else {
+            } else {
                 queue.offer(list2);
                 list2 = list2.next;
             }
         }
-        while(list2 != null){
+        while (list2 != null) {
             queue.offer(list2);
             list2 = list2.next;
         }
-        while(list1 != null){
+        while (list1 != null) {
             queue.offer(list1);
             list1 = list1.next;
         }
-        
-        ListNode head = queue.poll();  
+
+        ListNode head = queue.poll();
         ListNode p = head;
-        for(ListNode list : queue){
+        for (ListNode list: queue) {
             p.next = list;
             p = p.next;
         }
