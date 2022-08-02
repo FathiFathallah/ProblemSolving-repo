@@ -1,3 +1,5 @@
+
+//RUNNING TIME IN WORST CASE = N --> NOT THAT GOOD
 class Solution {
     public int search(int[] nums, int target) {
         int i = 0;
