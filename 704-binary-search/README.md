@@ -27,3 +27,5 @@
 	<li><code>nums</code> is sorted in ascending order.</li>
 </ul>
 </div>
+
+![](BinarySearch.PNG)
