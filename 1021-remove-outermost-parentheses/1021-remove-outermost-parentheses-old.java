@@ -7,6 +7,7 @@ class Solution {
             if(s.charAt(i) == '('){
                 stack.push(s.charAt(i));
             }
+            
             else{
                 stack.pop();
                 if(stack.empty()){
