@@ -7,7 +7,6 @@ class Solution {
         }
         for(int i = 0;i<n;i++)
             if(data[0][i] == 0 && data[1][i] ==  n-1) return i + 1;
-        
         return -1;
     }
 }
