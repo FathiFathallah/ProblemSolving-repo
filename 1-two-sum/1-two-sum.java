@@ -12,7 +12,6 @@ class Solution {
             }
             if(count == 2 && (nums[result[0]]+nums[result[1]]==target)) return result;
         }
-        //# of instructions = n
         HashMap<Integer,Integer> hashNum = new HashMap<Integer,Integer>();
         for(int i=0 ;i<nums.length ;i++){
             hashNum.put(nums[i],i);
