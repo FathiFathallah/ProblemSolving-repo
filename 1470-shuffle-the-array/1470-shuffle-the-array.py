@@ -7,4 +7,3 @@ class Solution(object):
             nums.append(l1[i])
             nums.append(l2[i])
         return nums
-        
